@@ -12,5 +12,5 @@ data_dict = {
 }
 
 s_df = pd.DataFrame(data_dict).sort_values("count", ascending=False)
-
+s_df.to_csv("Central Park Squirrel Color Count.csv")
 print(s_df)
